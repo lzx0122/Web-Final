@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-Hants">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/IMG_6770.PNG" type="image/x-icon" />
+    <title>作品展示</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <img
+      class="fixed-image"
+      src="./images/marek-piwnicki-FOMWbTDuh3s-unsplash.jpg"
+      alt="fixed-image"
+    />
+
+    <header class="index-header">
+      <nav>
+        <ul>
+          <li>
+            <a href="../">首頁</a>
+          </li>
+          <li>
+            <a href="../project/"> 作品展示 </a>
+          </li>
+          <li>
+            <a target="_blank" href="../../HW"> 網頁課堂練習 </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="background-img">
+        <div class="filter"></div>
+        <h3>我個人作品</h3>
+      </section>
+
+      <section class="info-circles">
+        <h3>作品主題</h3>
+        <div class="circles">
+          <div class="circle" onclick="location.href='#Unity'">
+            <img src="./images/unity.png" alt="Unity遊戲" />
+            <p>Unity遊戲: JumpDust</p>
+          </div>
+          <div class="circle" onclick="location.href='#crawler'">
+            <img src="./images/web-crawler.png" alt="Python 爬蟲" />
+            <p>網路爬蟲: 結合Line Bot</p>
+          </div>
+          <div class="circle" onclick="location.href='#web'">
+            <img
+              src="./images/react.png"
+              style="
+                animation-name: changeright;
+
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                animation-duration: 5s;
+              "
+              alt="Vue Electron"
+            />
+            <p>網站: React、NodeJS...</p>
+          </div>
+          <div class="circle" onclick="location.href='#Electron'">
+            <img src="./images/electron-icon.svg" alt="Vue Electron" />
+            <p>Electron Vue: 遊戲登入器</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Unity" class="empty-container">
+        <h1>Unity遊戲: JumpDust</h1>
+      </section>
+
+      <section class="project-content">
+        <h3>遊戲畫面</h3>
+        <hr />
+        <div class="display-frame">
+          <img
+            src="./images/Game-img1.png"
+            style="min-width: 100px; max-width: 450px; width: 90%"
+            alt="遊戲畫面1"
+          />
+          <img
+            src="./images/Game-img2.png"
+            style="min-width: 100px; max-width: 450px; width: 90%"
+            alt="遊戲畫面2"
+          />
+          <img
+            src="./images/Game-img3.png"
+            style="min-width: 100px; max-width: 450px; width: 90%"
+            alt="遊戲畫面3"
+          />
+          <img
+            src="./images/Game-img4.png"
+            style="min-width: 100px; max-width: 450px; width: 90%"
+            alt="遊戲畫面4"
+          />
+          <img
+            src="./images/Game-img5.png"
+            style="min-width: 100px; max-width: 450px; width: 90%"
+            alt="遊戲畫面5"
+          />
+        </div>
+      </section>
+
+      <section id="crawler" class="empty-container">
+        <h1>網路爬蟲: 結合Line Bot</h1>
+      </section>
+
+      <section class="project-content">
+        <h3>作品畫面</h3>
+        <hr />
+        <div class="display-frame">
+          <img
+            src="./images/crawler.jpg"
+            style="min-width: 100px; max-width: 450px; width: 90%"
+            alt="作品畫面1"
+          />
+          <img
+            src="./images/crawler2.jpg"
+            style="min-width: 100px; max-width: 450px; width: 90%"
+            alt="作品畫面2"
+          />
+        </div>
+      </section>
+
+      <section id="web" class="empty-container">
+        <h1>網站: React、NodeJs、ExpressJS、MongoDB等技術</h1>
+      </section>
+
+      <section class="project-content">
+        <h3>
+          作品畫面<br />
+          未完成...
+        </h3>
+        <hr />
+        <div class="display-frame">
+          <h4>還停留在寫RESTful API 有空再繼續:3</h4>
+          <img
+            src="./images/API.jpg"
+            style="min-width: 100px; max-width: 1000px; width: 90%"
+            alt="API"
+          />
+        </div>
+      </section>
+
+      <section id="Electron" class="empty-container">
+        <h1>Electron Vue: 遊戲登入器</h1>
+      </section>
+
+      <section class="project-content">
+        <h3>
+          作品畫面<br />
+          未完成...
+        </h3>
+        <hr />
+        <div class="display-frame">
+          <h4>有空再繼續:3</h4>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="logo">
+        <h3>資管一1 1411131034 廖子翔</h3>
+      </section>
+      <section class="links">
+        <a target="_blank" href="https://github.com/Lzx0122"
+          ><img src="./images/github-mark-white.svg" alt="github"
+        /></a>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
