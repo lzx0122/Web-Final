@@ -129,10 +129,18 @@ body {
                 margin: 0.5rem 0.3rem;
                 display: block;
               }
-              .progress {
-                margin: auto;
+              div.my-progress {
                 height: 20px;
                 width: 100%;
+                background-color: #d7d7d7;
+                border-radius: 20px;
+                display: flex;
+                justify-content: flex-start;
+
+                div.my-progress-value {
+                  border-radius: 7px 0 0px 7px;
+                  height: 20px;
+                }
               }
             }
           }

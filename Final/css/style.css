@@ -117,10 +117,17 @@ body main section.about-me div.progress-area .progress-bar-area .progress-item .
   margin: 0.5rem 0.3rem;
   display: block;
 }
-body main section.about-me div.progress-area .progress-bar-area .progress-item .progress-item-content .progress {
-  margin: auto;
+body main section.about-me div.progress-area .progress-bar-area .progress-item .progress-item-content div.my-progress {
   height: 20px;
   width: 100%;
+  background-color: #d7d7d7;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+body main section.about-me div.progress-area .progress-bar-area .progress-item .progress-item-content div.my-progress div.my-progress-value {
+  border-radius: 7px 0 0px 7px;
+  height: 20px;
 }
 body main section.resume {
   display: flex;
