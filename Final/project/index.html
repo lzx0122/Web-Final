@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./images/IMG_6770.PNG" type="image/x-icon" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
     <title>作品展示</title>
     <link
       rel="stylesheet"
@@ -22,7 +27,7 @@
       alt="fixed-image"
     />
 
-    <header class="index-header">
+    <header id="top" class="index-header">
       <nav>
         <ul>
           <li>
@@ -32,13 +37,14 @@
             <a href="../project/"> 作品展示 </a>
           </li>
           <li>
-            <a target="_blank" href="../../HW"> 網頁課堂練習 </a>
+            <a target="_self" href="../../HW"> 網頁課堂練習 </a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main>
+      <a href="#top" target="_self" class="top">TOP</a>
       <section class="background-img">
         <div class="filter"></div>
         <h3>我個人作品</h3>

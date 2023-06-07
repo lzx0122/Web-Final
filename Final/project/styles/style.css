@@ -46,6 +46,26 @@ body header nav ul li a:hover {
   color: rgba(152, 57, 255, 0.5);
   border-bottom: 3px solid rgba(152, 57, 255, 0.5);
 }
+body main .top {
+  position: fixed;
+  z-index: 5;
+  right: 50px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  background: #3e6d8d;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  transition: all 1s ease;
+  text-decoration: none;
+}
+body main .top:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
 body main section.background-img {
   background-image: url("./images/marek-piwnicki-FOMWbTDuh3s-unsplash.jpg");
   min-height: 70vh;
@@ -94,7 +114,6 @@ body main section.info-circles div.circles div.circle {
 }
 body main section.info-circles div.circles div.circle img {
   width: 80%;
-  height: 80%;
   border-radius: 50%;
   transition: all 0.1s ease-in;
   padding: 0.3rem;

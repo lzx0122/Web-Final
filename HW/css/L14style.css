@@ -18,6 +18,28 @@ body {
   padding: 10px;
 }
 
+.home {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  background: #3e6d8d;
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 50px;
+  transition: all 1s ease;
+  text-decoration: none;
+}
+
+.home:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+
 .h {
   border-left: 10px solid #d0e35b;
   border-radius: 5px 0 0 5px;

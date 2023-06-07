@@ -14,8 +14,6 @@ h6 {
 }
 
 body {
-  // position: relative;
-
   img.fixed-image {
     min-height: 100vh;
     position: fixed;
@@ -26,48 +24,6 @@ body {
   }
 
   header {
-    // background-color: white;
-    // display: flex;
-    // flex-wrap: wrap;
-    // align-items: center;
-
-    // section.logo {
-    //   flex: 2 1 400px;
-    //   // border: 2px solid green;
-    //   display: flex;
-    //   align-items: center;
-    //   h1 {
-    //     font-size: 2.5rem;
-    //   }
-
-    //   img {
-    //     width: 6vw;
-    //     height: 6vw;
-    //   }
-    // }
-
-    // nav {
-    //   flex: 5 1 500px;
-    //   // border: 2px solid red;
-    //   ul {
-    //     display: flex;
-    //     list-style-type: none;
-    //     justify-content: space-around;
-    //     li {
-    //       a {
-    //         color: black;
-    //         text-decoration: none;
-    //         font-size: 1.35rem;
-    //         transition: all 0.2s ease;
-    //         padding-bottom: 0.3rem;
-    //         &:hover {
-    //           color: $themeColor;
-    //           border-bottom: 3px solid $themeColor;
-    //         }
-    //       }
-    //     }
-    //   }
-    // }
     nav {
       background-color: white;
       box-shadow: 0px 8px 6px -6px black;
@@ -97,6 +53,27 @@ body {
   }
 
   main {
+    .top {
+      position: fixed;
+      z-index: 5;
+      right: 50px;
+      bottom: 50px;
+      width: 50px;
+      height: 50px;
+      background: #3e6d8d;
+      color: #fff;
+      font-size: 1rem;
+      line-height: 50px;
+      border-radius: 50px;
+      text-align: center;
+      transition: all 1s ease;
+      text-decoration: none;
+    }
+
+    .top:hover {
+      transform: scale(1.2);
+      color: #fff;
+    }
     section.background-img {
       // 設定背景圖片
       background-image: url("./images/marek-piwnicki-FOMWbTDuh3s-unsplash.jpg");
@@ -152,7 +129,6 @@ body {
 
           img {
             width: 80%;
-            height: 80%;
             border-radius: 50%;
             transition: all 0.1s ease-in;
             padding: 0.3rem;
