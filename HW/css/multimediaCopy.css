@@ -57,13 +57,7 @@ main {
   align-items: center;
   padding: 20px 20px;
 }
-footer {
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  background-color: rgb(23, 23, 23);
-  padding: 1px;
-}
+
 
 h2 {
   border: 1px dotted #0caeff;
@@ -85,10 +79,12 @@ h2 {
 
 .index-menu li {
   position: relative;
-  padding: 1rem;
-  /* padding: 0px; */
-  /* border: lightblue 1px dashed; */
-  min-width: 5rem;
+  height: 50px;
+  line-height: 50px;
+  padding: 1px;
+  width: auto;
+  min-width: 6rem;
+  text-align: center;
 }
 
 .index-menu ul {
@@ -109,17 +105,21 @@ h2 {
   display: block;
   color: white;
   text-decoration: none;
-  /* background-color: white; */
   background-size: cover;
-  /* color: black; */
-  /* text-align: center; */
 }
 
 .index-menu a:hover {
-  /* background-color: black; */
   background-size: cover;
 }
 
 .index-menu li:hover > ul {
   display: block;
+}
+
+footer {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: rgb(23, 23, 23);
+  padding: 1px;
 }
