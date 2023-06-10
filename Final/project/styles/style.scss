@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Limelight&family=Noto+Sans+TC&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +14,15 @@ h6 {
   font-weight: normal;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
+  font-family: "Baloo 2", cursive;
+  font-family: "Limelight", cursive;
+  font-family: "Noto Sans TC", sans-serif;
   img.fixed-image {
     min-height: 100vh;
     position: fixed;
@@ -120,7 +129,8 @@ body {
         flex-wrap: wrap;
         justify-content: center;
 
-        div.circle {
+        div.circle,
+        a {
           padding: 1rem;
           flex: 0 1 250px;
           display: flex;
@@ -173,8 +183,14 @@ body {
 
       div.display-frame {
         margin-top: 2rem;
-        img {
-          margin: 1rem 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0rem 5rem;
+        figure {
+          margin: 1rem;
+          padding: 1rem;
+          border: 5px solid #3e6d8d;
         }
       }
     }

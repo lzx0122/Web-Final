@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Limelight&family=Noto+Sans+TC&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +14,16 @@ h6 {
   font-weight: normal;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: "Baloo 2", cursive;
+  font-family: "Limelight", cursive;
+  font-family: "Noto Sans TC", sans-serif;
+}
 body img.fixed-image {
   min-height: 100vh;
   position: fixed;
@@ -105,20 +116,23 @@ body main section.info-circles div.circles {
   flex-wrap: wrap;
   justify-content: center;
 }
-body main section.info-circles div.circles div.circle {
+body main section.info-circles div.circles div.circle,
+body main section.info-circles div.circles a {
   padding: 1rem;
   flex: 0 1 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-body main section.info-circles div.circles div.circle img {
+body main section.info-circles div.circles div.circle img,
+body main section.info-circles div.circles a img {
   width: 80%;
   border-radius: 50%;
   transition: all 0.1s ease-in;
   padding: 0.3rem;
 }
-body main section.info-circles div.circles div.circle img:hover {
+body main section.info-circles div.circles div.circle img:hover,
+body main section.info-circles div.circles a img:hover {
   border: 3px solid rgba(152, 57, 255, 0.5);
 }
 body main section.empty-container {
@@ -151,9 +165,15 @@ body main section.project-content hr {
 }
 body main section.project-content div.display-frame {
   margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0rem 5rem;
 }
-body main section.project-content div.display-frame img {
-  margin: 1rem 1rem;
+body main section.project-content div.display-frame figure {
+  margin: 1rem;
+  padding: 1rem;
+  border: 5px solid #3e6d8d;
 }
 body footer {
   display: flex;

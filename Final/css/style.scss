@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Limelight&family=Noto+Sans+TC&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +16,9 @@ h6 {
 }
 
 body {
+  font-family: "Baloo 2", cursive;
+  font-family: "Limelight", cursive;
+  font-family: "Noto Sans TC", sans-serif;
   header {
     nav {
       background-color: white;
