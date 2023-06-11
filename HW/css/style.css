@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
@@ -45,6 +45,10 @@ main {
   background-color: #1a1a1a;
   justify-content: center;
   min-height: 100vh;
+}
+
+main img {
+  max-width: 100%;
 }
 footer {
   height: 50px;
