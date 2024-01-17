@@ -93,6 +93,14 @@ body main section.about-me div.desc {
 body main section.about-me div.desc h2 {
   font-size: 2rem;
 }
+body main section.about-me div.desc .experience {
+  margin: 1rem auto 3rem auto;
+  min-width: 100px;
+  max-width: 400px;
+}
+body main section.about-me div.desc .experience ul li {
+  text-align: left;
+}
 body main section.about-me div.progress-area {
   padding-left: 1%;
   padding-right: 1%;

@@ -105,6 +105,17 @@ body {
         h2 {
           font-size: 2rem;
         }
+
+        .experience {
+          margin: 1rem auto 3rem auto;
+
+          min-width: 100px;
+          max-width: 400px;
+
+          ul li {
+            text-align: left;
+          }
+        }
       }
 
       div.progress-area {
